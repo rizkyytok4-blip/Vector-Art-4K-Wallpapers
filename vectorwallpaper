@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "app_name": "Vector 4K Wallpaper",
+  "version": "1.1",
+  "ads_settings": {
+    "enable_ads": true,
+    "security": {
+      "prevent_rapid_clicks": true,
+      "min_cooldown_seconds": 30
+    }
+  },
+  "admob": {
+    "app_open": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
+      "show_on_start": true,
+      "show_on_resume": true
+    },
+    "interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "interval_clicks": 2,
+      "cooldown_seconds": 30
+    },
+    "native": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
+      "frequency_every_n_items": 2
+    }
+  }
+}
